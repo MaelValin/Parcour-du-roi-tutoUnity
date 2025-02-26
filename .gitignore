@@ -1,0 +1,40 @@
+# Fichiers Unity à ignorer
+
+# Fichiers de bibliothèque et temporaires
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Visual Studio / JetBrains Rider
+.vs/
+*.csproj
+*.sln
+*.user
+.idea/
+*.unityproj
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Cache utilisateur Unity
+UserSettings/
+Packages/com.unity.package-manager/
+*.pidb
+*.suo
+*.userprefs
+*.ilk
+*.pdb
+*.opendb
+*.VC.db
+
+# Cache et paramètres locaux
+*.swp
+*.lock
+*.log
+*.bak
+*.tmp

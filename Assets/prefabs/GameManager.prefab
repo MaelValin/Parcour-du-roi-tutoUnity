@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8537078211616876667
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2400530246940777398}
+  - component: {fileID: 4172182654497161267}
+  - component: {fileID: 4721977923010402186}
+  - component: {fileID: 3404254524071285432}
+  - component: {fileID: 533385754045848477}
+  - component: {fileID: 2216520069193647984}
+  - component: {fileID: 9219642286963501678}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2400530246940777398
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8537078211616876667}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.361694, y: 0.7271805, z: -0.16415119}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4172182654497161267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8537078211616876667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 491522670520a7a4984d9b71253c36c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOverUI: {fileID: 0}
+--- !u!114 &4721977923010402186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8537078211616876667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af566b363f6b1004897a21219a1a2651, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenuUI: {fileID: 0}
+  animator: {fileID: 0}
+--- !u!114 &3404254524071285432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8537078211616876667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 858fe4350c85bca42b2276716a653f37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &533385754045848477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8537078211616876667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 406035fafc9c3b34292e9db86ac499b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 0}
+  dialogueText: {fileID: 0}
+  dialogueBox: {fileID: 0}
+  PNJ: {fileID: 0}
+  isDialogue: 0
+  Sound: {fileID: 8300000, guid: faa7fe02543aeb54481b9b665d19ba01, type: 3}
+--- !u!114 &2216520069193647984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8537078211616876667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4465e01bfddd564794840f1221504f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 0}
+  ShopText: {fileID: 0}
+  ShopBox: {fileID: 0}
+  PNJ: {fileID: 0}
+  isShop: 0
+  ButtonSellPrefab: {fileID: 1924453281459045236, guid: 0af1796fc688ad04c85c9db09cf7fded, type: 3}
+  ButtonSellParent: {fileID: 0}
+--- !u!114 &9219642286963501678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8537078211616876667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1f29c46e283f0045a6d489133a27c33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Allitems:
+  - {fileID: 11400000, guid: 3ba46e5a326082d4c8897142a0c96767, type: 2}
+  - {fileID: 11400000, guid: 99f3f620f0187e7498a25d93b201d681, type: 2}
+  - {fileID: 11400000, guid: 6a1d6ca1aefeae34ba916219855390a8, type: 2}
+  - {fileID: 11400000, guid: 0c6dc7033aa1a2e4fad4a23332cb748b, type: 2}
+  - {fileID: 11400000, guid: a7b791e97141b714bb21207b88be1346, type: 2}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fc006181429f5a4d85e571a2f5b12d2, type: 3}
+  m_Name: randomPotion
+  m_EditorClassIdentifier: 
+  id: 5
+  name: "Potion \xE9trange"
+  description: "il y a un effet al\xE9atoire"
+  img: {fileID: 8659314426335045241, guid: 7cf3f3516747eb44a833decec7e10166, type: 3}
+  hpGiven: 0
+  speedGiven: 0
+  speedDuration: 0
+  price: 20
+  Jumpforce: 0
+  Gravity: 0
+  flotduration: 0
