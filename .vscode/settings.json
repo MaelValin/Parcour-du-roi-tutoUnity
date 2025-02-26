@@ -56,5 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "jeu 2d tuto.sln"
+    "dotnet.defaultSolution": "jeu 2d tuto.sln",
+    "git.ignoreLimitWarning": true
 }

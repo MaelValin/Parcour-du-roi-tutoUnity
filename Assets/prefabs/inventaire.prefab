@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5046345338a5ae24f817b5c1edf55dd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NumberCoins: 0
+  NumberCoins: 5613
   coinText: {fileID: 0}
   ImageInventaire: {fileID: 0}
   imgvide: {fileID: 5412526570508088131, guid: 26523c6996fc95649920353d00fc74b4, type: 3}
@@ -54,6 +54,8 @@ MonoBehaviour:
   LivePotionQuantity: 0
   SpeedPotionQuantity: 0
   JumpPotionQuantity: 0
+  GravityPotionQuantity: 0
+  RandomPotionQuantity: 0
   Soundlive: {fileID: 8300000, guid: f973343849d3ba54d89f18787bdd502f, type: 3}
   Soundspeed: {fileID: 8300000, guid: 4210d287f13cc164d91c66ca589fa337, type: 3}
   items: []

@@ -19386,7 +19386,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1062623174808440893, guid: 162be479f31cd414b831a7be8a4ff10c, type: 3}
       propertyPath: m_Name
-      value: flotPotion 1
+      value: Jump
       objectReference: {fileID: 0}
     - target: {fileID: 8528705145664422260, guid: 162be479f31cd414b831a7be8a4ff10c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19431,10 +19431,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1062623174808440893, guid: 162be479f31cd414b831a7be8a4ff10c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1281664042}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 162be479f31cd414b831a7be8a4ff10c, type: 3}
 --- !u!1001 &1105301577
 PrefabInstance:
@@ -19493,33 +19490,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9307f1e1168e8b646a1bc925559f8e6c, type: 3}
---- !u!1 &1281664041 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1062623174808440893, guid: 162be479f31cd414b831a7be8a4ff10c, type: 3}
-  m_PrefabInstance: {fileID: 872069814}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1281664042
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1281664041}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8b769cc3a0efa794780ef6111a300161, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1452167840 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1806505627640282520, guid: 2c47ddd1a51585d4687893b7068a9b11, type: 3}
@@ -19861,10 +19831,6 @@ PrefabInstance:
       propertyPath: numberItem
       value: 
       objectReference: {fileID: 822954958}
-    - target: {fileID: 4205037916792541507, guid: 921fdf208588f1840a99b2758f24f989, type: 3}
-      propertyPath: NumberCoins
-      value: 5613
-      objectReference: {fileID: 0}
     - target: {fileID: 4205037916792541507, guid: 921fdf208588f1840a99b2758f24f989, type: 3}
       propertyPath: playerEffect
       value: 
